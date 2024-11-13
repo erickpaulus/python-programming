@@ -12,6 +12,23 @@ The project version is specified in the `__init__.py` file, located in the main 
 # your_package/__init__.py
 __version__ = "0.0.2"
 ```
+
+## Changelog
+For tracking changes across versions, this repository includes a CHANGELOG.md file. Here’s an example format:
+```
+# Changelog
+## [0.0.2] - YYYY-MM-DD
+### Added
+- Add files
+- Implemented feature number AAA.
+- Fixed issue number FFF.
+
+## [0.0.1] - YYYY-MM-DD
+### Added
+- Initial release with basic functionality.
+
+```
+
 ## Logging
 The project includes a logging setup to capture key information, warnings, and errors during execution, which is useful for debugging and monitoring the behavior of the scripts.
 
