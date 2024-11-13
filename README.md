@@ -2,7 +2,7 @@
 This repository contain my experiment using Python programming language:
 
 ## Environment and installation
-creates the environment, then activates it and installs dependencies. [One go](setup.bat)  or [manual](setup.md)
+Creates the environment, then activates it and installs dependencies. [One go](setup.bat)  or [manual](setup.md)
    
 ## Versioning
 The project uses semantic versioning, with the version number defined in the `__init__.py` file as `__version__`. This makes it easy to track the current version of the project directly in the code.
