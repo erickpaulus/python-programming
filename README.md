@@ -32,3 +32,20 @@ For tracking changes across versions, this repository includes a CHANGELOG.md fi
 ## Logging
 The project includes a logging setup to capture key information, warnings, and errors during execution, which is useful for debugging and monitoring the behavior of the scripts.
 
+```
+import logging
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler("project.log"),    # Log to a file
+        logging.StreamHandler()                # Log to the console
+    ]
+)
+
+# Example usage
+logger = logging.getLogger(__name__)
+logger.info("Starting the script...")
+```
