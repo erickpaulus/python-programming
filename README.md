@@ -14,7 +14,7 @@ __version__ = "0.0.2"
 ```
 
 ## Changelog
-For tracking changes across versions, this repository includes a CHANGELOG.md file. Here’s an example format:
+For tracking changes across versions, the project should includes a CHANGELOG.md file. Here’s an example format:
 ```
 # Changelog
 ## [0.0.2] - YYYY-MM-DD
@@ -30,7 +30,7 @@ For tracking changes across versions, this repository includes a CHANGELOG.md fi
 ```
 
 ## Logging
-The project includes a logging setup to capture key information, warnings, and errors during execution, which is useful for debugging and monitoring the behavior of the scripts.
+The project should includes a logging setup to capture key information, warnings, and errors during execution, which is useful for debugging and monitoring the behavior of the scripts.
 
 ```
 import logging
