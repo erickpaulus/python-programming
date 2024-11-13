@@ -11,7 +11,7 @@ The project version is specified in the `__init__.py` file, located in the main 
 ```python
 # your_package/__init__.py
 __version__ = "0.0.2"
-
+```
 ## Logging
 The project includes a logging setup to capture key information, warnings, and errors during execution, which is useful for debugging and monitoring the behavior of the scripts.
 
